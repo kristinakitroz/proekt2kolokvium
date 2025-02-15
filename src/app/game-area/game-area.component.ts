@@ -243,7 +243,6 @@ checkCollisions() {
     })) {
     if (this.collectedBones === this.platforms.length) {
       this.backgroundMusic.pause(); 
-
       this.showVictoryMessage();  
     } else {
       this.showIncompleteMessage(); 
@@ -264,12 +263,15 @@ moveDogAwayFromHouse() {
 }
 //popup deka se sobrani site koski i pobeda na igrata 
 showVictoryMessage() {
+  if (this.isGameOver) return; 
   this.winSound.play();
-
-  alert('Честитки, победи!');
-  this.moveDogAwayFromHouse();
-  this.showRestartButton();  
- this.isGameOver = true; 
+  this.isGameOver = true;
+  setTimeout(() => {
+    alert('Честитки, победи!'); 
+    this.moveDogAwayFromHouse();
+    this.showRestartButton();
+    
+  }, 100); 
 }
 //otkako sme ja pobedile igrata se pojavuva kopce za restart
 showRestartButton() {
