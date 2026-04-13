@@ -1,4 +1,5 @@
-# Proekt2kolokvium - Игра со собирање елементи направена во Ангулар 
+# Игра со собирање елементи направена во Ангулар , линк до видео од играта https://drive.google.com/file/d/1cyfLJgoyRjYpXpi4He9vgw2mpDyOrZ3-/view?usp=drive_link
+
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
 
