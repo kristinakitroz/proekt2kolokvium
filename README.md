@@ -1,4 +1,4 @@
-# Proekt2kolokvium - Игра со собирање елементи и поминување на препреки направена во Ангулар 
+# Proekt2kolokvium - Игра со собирање елементи направена во Ангулар 
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
 
